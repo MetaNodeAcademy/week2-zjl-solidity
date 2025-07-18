@@ -1,0 +1,15 @@
+{
+    "proxyAaaddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "implAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "abi": [
+        "error InvalidInitialization()",
+        "error NotInitializing()",
+        "event Initialized(uint64)",
+        "function admin() view returns (address)",
+        "function auctions(uint256) view returns (address,uint256,uint256,uint256,bool,address,uint256,address,uint256)",
+        "function createAuction(uint256,uint256,address,uint256)",
+        "function initialize()",
+        "function nextAuctionId() view returns (uint256)",
+        "function placBid(uint256) payable"
+    ]
+}
